@@ -21,7 +21,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace num3_1
 {
     internal class Program
     {
@@ -79,6 +79,7 @@ namespace ConsoleApp1
 
             if ( args.Length == 0 || args[0] == "-c")
             {
+                Console.WriteLine("string: ");
                 string input = Console.ReadLine();
                 string[] token = input.Split(' ', '\n', '\t', '\r');
                 foreach (string token2 in token)
