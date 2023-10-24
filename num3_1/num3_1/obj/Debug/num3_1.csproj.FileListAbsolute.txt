@@ -1,0 +1,7 @@
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\bin\Debug\num3_1.exe.config
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\bin\Debug\num3_1.exe
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\bin\Debug\num3_1.pdb
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\obj\Debug\num3_1.csproj.AssemblyReference.cache
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\obj\Debug\num3_1.csproj.CoreCompileInputs.cache
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\obj\Debug\num3_1.exe
+C:\Users\79163\Desktop\c\шарп_лаба1\num3_1\num3_1\obj\Debug\num3_1.pdb
