@@ -105,16 +105,23 @@ namespace number5
 
         static string File_check(string file_name)
         {
-            StreamReader file = new StreamReader(file_name);
-            if (file != null)
+            if (File.Exists(file_name))
             {
-                return file.ReadLine();
+                // TODO
             }
-            else
+            using (StreamReader file = new StreamReader(file_name))
             {
-                Console.WriteLine("file cannot be opened");
+                
+                if (file != null)
+                {
+                    return file.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("file cannot be opened");
+                }
+                return null;
             }
-            return null;
         }
 
 
@@ -224,7 +231,7 @@ namespace number5
                 }
             }
             /* e) Найти 𝑘 − ое слово в строке, начинающееся с заглавной буквы(ввод с консоли). Результаты вычислений необходимо вывести на консоль.*/
-            if (c == "e")
+            if (string.CompareOrdinal(c, "e") == 0)
             {
                 Console.WriteLine("number: ");
                 string k_for_search = Console.ReadLine();

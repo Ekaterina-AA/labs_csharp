@@ -78,7 +78,7 @@ namespace num4
                             }
                         }
                         
-                        if (isPeriodic == true)
+                        if (isPeriodic)
                         {
                             periodStart = l;
                             periodLength = j;

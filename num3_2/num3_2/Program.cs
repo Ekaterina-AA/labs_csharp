@@ -44,30 +44,31 @@ namespace num3_2
             {
                 try
                 {
-                    StreamReader file_open = new StreamReader(file_name);
-                    while (!file_open.EndOfStream)
+                    using (StreamReader file_open = new StreamReader(file_name))
                     {
-                        string line = file_open.ReadLine();
-                        string[] token = line.Split(' ', '\n', '\t', '\r');
-                        foreach (string token2 in token)
+                        while (!file_open.EndOfStream)
                         {
-                            if (double.TryParse(token2, out number))
+                            string line = file_open.ReadLine();
+                            string[] token = line.Split(new[] { ' ', '\n', '\t', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+                            foreach (string token2 in token)
                             {
-                                if (number <= 0)
+                                if (double.TryParse(token2, out number))
                                 {
-                                    Console.WriteLine("Invalid input: {0}", number);
-                                }
-                                else
-                                {
-                                    geometric *= number;
-                                    harmonic *= 1.0 / number;
-                                    count++;
-                                }
+                                    if (number <= 0)
+                                    {
+                                        Console.WriteLine("Invalid input: {0}", number);
+                                    }
+                                    else
+                                    {
+                                        geometric *= number;
+                                        harmonic *= 1.0 / number;
+                                        count++;
+                                    }
 
+                                }
                             }
                         }
                     }
-                    file_open.Close();
                 }
 
                 catch (Exception e)

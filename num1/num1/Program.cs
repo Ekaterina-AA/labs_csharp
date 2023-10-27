@@ -137,8 +137,8 @@ namespace num1
 
             double a = 1.0;
             double b = 3.0;
-            double c = 4.0;
-            double d = 2.0;
+            double c = 3.0;
+            double d = -1.0;
             int type = 0;
             double p1 = 0, p2 = 0, p3 = 0;
             double r1 = 0, r2 = 0, r3 = 0;

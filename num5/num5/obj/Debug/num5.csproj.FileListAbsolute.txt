@@ -1,0 +1,7 @@
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\bin\Debug\num5.exe.config
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\bin\Debug\num5.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\bin\Debug\num5.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\obj\Debug\num5.csproj.AssemblyReference.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\obj\Debug\num5.csproj.CoreCompileInputs.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\obj\Debug\num5.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\num5\num5\obj\Debug\num5.pdb

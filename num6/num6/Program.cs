@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace number6
 {
+    // эписолон, а, б, наличие уравнения, 
     internal class Program
     {
         delegate double Equation(double x);

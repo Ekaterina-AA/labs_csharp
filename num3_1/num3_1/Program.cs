@@ -42,7 +42,7 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    StreamReader file_open = new StreamReader(file_name);
+                    using StreamReader file_open = new StreamReader(file_name);
                     while (!file_open.EndOfStream)
                     {
                         string line = file_open.ReadLine();
@@ -55,10 +55,9 @@ namespace ConsoleApp1
                             }
                         }
                     }
-                    file_open.Close();
                 }
 
-                catch (Exception e)
+                catch (IOException e)
                 {
                     Console.WriteLine(e.Message);
                     return;

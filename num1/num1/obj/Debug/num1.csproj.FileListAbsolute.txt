@@ -5,3 +5,10 @@ C:\Users\79163\Desktop\c\шарп_лаба1\num1\num1\bin\Debug\num1.exe
 C:\Users\79163\Desktop\c\шарп_лаба1\num1\num1\bin\Debug\num1.pdb
 C:\Users\79163\Desktop\c\шарп_лаба1\num1\num1\obj\Debug\num1.exe
 C:\Users\79163\Desktop\c\шарп_лаба1\num1\num1\obj\Debug\num1.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\bin\Debug\num1.exe.config
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\bin\Debug\num1.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\bin\Debug\num1.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\obj\Debug\num1.csproj.AssemblyReference.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\obj\Debug\num1.csproj.CoreCompileInputs.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\obj\Debug\num1.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\num1\num1\obj\Debug\num1.pdb
