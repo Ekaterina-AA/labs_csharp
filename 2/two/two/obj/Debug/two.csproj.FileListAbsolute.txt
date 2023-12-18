@@ -1,0 +1,7 @@
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\bin\Debug\two.exe.config
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\bin\Debug\two.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\bin\Debug\two.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\obj\Debug\two.csproj.AssemblyReference.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\obj\Debug\two.csproj.CoreCompileInputs.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\obj\Debug\two.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\two\two\obj\Debug\two.pdb

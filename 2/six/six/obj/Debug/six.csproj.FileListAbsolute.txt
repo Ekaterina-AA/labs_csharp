@@ -1,0 +1,7 @@
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\bin\Debug\six.exe.config
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\bin\Debug\six.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\bin\Debug\six.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\obj\Debug\six.csproj.AssemblyReference.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\obj\Debug\six.csproj.CoreCompileInputs.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\obj\Debug\six.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\six\six\obj\Debug\six.pdb

@@ -1,0 +1,7 @@
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\bin\Debug\four.exe.config
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\bin\Debug\four.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\bin\Debug\four.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\obj\Debug\four.csproj.AssemblyReference.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\obj\Debug\four.csproj.CoreCompileInputs.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\obj\Debug\four.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\four\four\obj\Debug\four.pdb

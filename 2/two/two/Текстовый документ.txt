@@ -1,0 +1,110 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public static class CombinationGenerator
+{
+    static public IEnumerable<IEnumerable<int>> GenerateCombinationsWithRepetition(this IEnumerable<int> input, int k, IEqualityComparer<int> comparer)
+    {
+        Console.WriteLine("check1");
+        if (k < 0)
+            throw new ArgumentException("k cannot be negative");
+
+        if (k == 0)
+            yield return Enumerable.Empty<int>();
+
+        foreach (var item in input)
+        {
+            var remaining = input.SkipWhile(e => !comparer.Equals(e, item));
+            foreach (var combination in GenerateCombinationsWithRepetition(remaining, k - 1, comparer))
+            {
+                yield return new int[] { item }.Concat(combination);
+            }
+        }
+    }
+
+    static public IEnumerable<IEnumerable<int>> GenerateCombinationsWithoutRepetition(this IEnumerable<int> input, int k, IEqualityComparer<int> comparer)
+    {
+        if (k < 0)
+            throw new ArgumentException("k cannot be negative");
+
+        if (k == 0)
+            yield return Enumerable.Empty<int>();
+
+        foreach (var item in input)
+        {
+            var remaining = input.SkipWhile(e => comparer.Equals(e, item));
+            foreach (var combination in GenerateCombinationsWithoutRepetition(remaining, k - 1, comparer))
+            {
+                yield return new int[] { item }.Concat(combination);
+            }
+        }
+    }
+
+    static public IEnumerable<IEnumerable<int>> GenerateSubsets(this IEnumerable<int> input, IEqualityComparer<int> comparer)
+    {
+        for (int i = 0; i < (1 << input.Count()); i++)
+        {
+            yield return input.Where((t, j) => (i & (1 << j)) != 0).ToArray();
+        }
+    }
+
+    static public IEnumerable<IEnumerable<int>> GeneratePermutations(this IEnumerable<int> input, IEqualityComparer<int> comparer)
+    {
+        if (!input.Any())
+            yield return Enumerable.Empty<int>();
+
+        foreach (var item in input)
+        {
+            var remaining = input.Where(e => !comparer.Equals(e, item));
+            foreach (var permutation in GeneratePermutations(remaining, comparer))
+            {
+                yield return new int[] { item }.Concat(permutation);
+            }
+        }
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        try
+        {
+            Console.WriteLine("one");
+            int[] input1 = { 1, 2, 3 };
+            input1.GenerateCombinationsWithRepetition(2, EqualityComparer<int>.Default);
+            foreach (var combination in input1)
+            {
+                Console.WriteLine($"[{string.Join(", ", combination)}]");
+            }
+
+            Console.WriteLine("two");
+            int[] input2 = { 1, 2, 3 };
+            input2.GenerateCombinationsWithoutRepetition(2, EqualityComparer<int>.Default);
+            foreach (var combination in input2)
+            {
+                Console.WriteLine($"[{string.Join(", ", combination)}]");
+            }
+
+            Console.WriteLine("three");
+            int[] input3 = { 1, 2 };
+            input3.GenerateSubsets(EqualityComparer<int>.Default);
+            foreach (var subset in input3)
+            {
+                Console.WriteLine($"[{string.Join(", ", subset)}]");
+            }
+
+            Console.WriteLine("four");
+            int[] input4 = { 1, 2, 3 };
+            input4.GeneratePermutations(EqualityComparer<int>.Default);
+            foreach (var permutation in input4)
+            {
+                Console.WriteLine($"[{string.Join(", ", permutation)}]");
+            }
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

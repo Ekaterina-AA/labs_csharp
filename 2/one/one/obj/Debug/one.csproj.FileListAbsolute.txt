@@ -1,0 +1,7 @@
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\bin\Debug\one.exe.config
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\bin\Debug\one.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\bin\Debug\one.pdb
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\obj\Debug\one.csproj.AssemblyReference.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\obj\Debug\one.csproj.CoreCompileInputs.cache
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\obj\Debug\one.exe
+C:\Users\79163\Documents\GitHub\labs_csharp\2\one\one\obj\Debug\one.pdb
